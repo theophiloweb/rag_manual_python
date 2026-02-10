@@ -1,0 +1,23 @@
+# Dependências do Projeto RAG - Sistema de Recomendação de Filmes IMDB
+
+# Framework Web
+Flask==3.0.0
+Werkzeug==3.0.1
+
+# Banco de Dados Vetorial
+chromadb==0.4.22
+
+# Modelo de Embeddings
+sentence-transformers==2.3.1
+torch==2.1.2
+transformers==4.36.2
+
+# LLM - Google Gemini
+google-genai==0.2.2
+
+# Utilitários
+requests==2.31.0
+numpy==1.26.3
+
+# Opcional - Para testes
+pytest==7.4.4

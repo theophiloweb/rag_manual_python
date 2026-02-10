@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+
+# ChromaDB - Vetores (arquivos grandes)
+chroma_db/
+
+# Banco de dados
+#*.db
+
+# Pastas
+dados/
+96313937-45f0-499c-9238-ba320e98e8e5/
+venv/
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
