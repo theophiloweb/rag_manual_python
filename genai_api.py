@@ -1,6 +1,6 @@
 from google import genai
 
-client = genai.Client(api_key="AIzaSyCpX11YMKBrHkkCYxrOh_OZuVpv9sLG-hc")
+client = genai.Client(api_key="sua chave API do Gemini")
 
 if __name__ == "__main__":
     response = client.models.generate_content(
